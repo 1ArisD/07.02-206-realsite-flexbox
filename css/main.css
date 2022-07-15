@@ -39,10 +39,10 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
+    display: block;
+    height: 1px;
     margin: 1em 0;
     padding: 0;
 }
@@ -85,9 +85,9 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #000;
+    margin: 0.2em 0;    
     padding: 0.2em 0;
 }
 
@@ -105,15 +105,14 @@ html {
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.25em;
-  padding: 0em 2em;
   height: 100%;
+  padding: 0em 2em;
   display: flex;
   justify-content: flex-start;
 }
 
-header,
-footer {
-  font-size: 3.25em;
+header {
+  font-size: 3em;
 }
 
 main {
@@ -121,8 +120,19 @@ main {
   font-size: 2.25em;
 }
 
+footer {
+  font-size: 1.25em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #2d3617;
+}
+
 header,
-footer,
 main {
   color: #2d3617;
   width: 100%;
@@ -139,21 +149,18 @@ main {
 }
 
 .flex-items {
-  color: #2d3617;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  background: rgb(253, 253, 216, .9);
+  background: #fdfdd8;
   border: thick double #2d3617;
+  color: #2d3617;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  padding: 0 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.div-1,
-.div-2,
-.div-3 {
-    padding: 0 15px;
-}
+
 
 
 
@@ -238,13 +245,13 @@ main {
    Modify as content requires.
    ========================================================================== */
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
     body {
     padding: 1em;
    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1290px) {
     .flex-items {
      flex-basis: 30%;
    }
