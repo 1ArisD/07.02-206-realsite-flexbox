@@ -118,6 +118,7 @@ header {
 main {
   font-family: 'Edu SA Beginner', cursive;
   font-size: 2.25em;
+  margin-bottom: .5em;
 }
 
 footer {
